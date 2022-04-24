@@ -27,7 +27,10 @@ module.exports = {
 			md: '1.25rem', // 20px
 			lg: '1.5rem', // 24px
 			xl: '3rem' // 48p
-		}
+		},
+		boxShadow: {
+			main: "0px 32px 43px rgba(79, 166, 175, 0.200735)",
+		},
 	},
 	plugins: [
 		plugin(({ addComponents, theme }) => {
