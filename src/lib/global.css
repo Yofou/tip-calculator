@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	@apply w-full min-h-full;
+}
+
+body {
+	@apply w-full h-full bg-blue-300;
+}
+
+body {
+	@apply justify-center grid grid-cols-[minmax(0,920px)] grid-rows-[max-content,1fr] md:grid-rows-[repeat(2,max-content)] justify-items-center;
+}
