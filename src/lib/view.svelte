@@ -21,7 +21,7 @@
 	<ViewValue value={tipAmount}>Tip Amount</ViewValue>
 	<ViewValue value={total}>Total</ViewValue>
 
-	<fieldset for="controls" class="self-end mt-8">
+	<fieldset form="controls" class="self-end mt-8">
 		<button
 			type="button"
 			disabled={hasError}
